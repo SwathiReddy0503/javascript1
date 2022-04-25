@@ -77,6 +77,7 @@ li{
     position:relative;
     transform:translateY(-1000px);
     transition:all 0.5s ease-in;
+   
 }
 
 .model-header{
@@ -84,6 +85,9 @@ li{
 }
 p {
     margin-bottom: 1.25rem;
+    width:500px;
+    height: 200px;
+    border-radius:50px;
   }
 .modal-body h2{
     text-align: center;
@@ -124,6 +128,7 @@ p {
     background-color:rgb(255,125,125);
     color:#fff;
     cursor:pointer;
+    
 
 }
 .overlay{
@@ -147,4 +152,5 @@ p {
   }
   p {
     margin-bottom: 1.25rem;
+    text-align: center;
   }
