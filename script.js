@@ -1,4 +1,4 @@
- 'use strict';
+'use strict';
 const btnShowModal=document.getElementById('btn-show');
 
 const btnCloseModal=document.getElementById('btn-close');
@@ -11,8 +11,7 @@ btnShowModal.addEventListener('click',function(){
     modalContainer.classList.add('show');
     overlayContainer.classList.add('show') ;
 });
-
-btnShowModal.addEventListener('click',function(){
+btnCloseModal.addEventListener('click',function(){
     modalContainer.classList.remove('show');
     overlayContainer.classList.remove('show') ;
 });
@@ -22,9 +21,4 @@ overlayContainer.addEventListener('click',function(){
     overlayContainer.classList.remove('show') ;
 });
 
-document.addEventListener('keydown',function(e){
-if(e.key ==='Escape'){
-    modalContainer.classList.remove('show');
-    overlayContainer.classList.remove('show') ;
-}
-});
+
